@@ -13,7 +13,7 @@ export default function Home() {
         height={24}
         priority
       />
-      test
+      test profile
     </div>
   );
 }
