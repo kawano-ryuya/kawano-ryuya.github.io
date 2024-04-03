@@ -1,19 +1,19 @@
-import Image from "next/image";
-import { basePath } from "../../next.config.js"; // 追加
-const BASE_PATH = basePath ? basePath : ""; // 追加
+import "./app.css";
+import Hero from "@/components/Hero";
+import Profile from "@/components/Profile";
+import Works from "@/components/Works";
+import Contact from "@/components/Contact";
+import Skill from "@/components/Skill";
 
 export default function Home() {
   return (
-    <div>
-      <Image
-        src={`${BASE_PATH}/vercel.svg`} // 修正
-        alt="Vercel Logo"
-        className="dark:invert"
-        width={100}
-        height={24}
-        priority
-      />
-      test profile
+    // <div className="hero absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
+    <div className="">
+      <Hero />
+      <Profile />
+      <Works />
+      <Skill />
+      <Contact />
     </div>
   );
 }
