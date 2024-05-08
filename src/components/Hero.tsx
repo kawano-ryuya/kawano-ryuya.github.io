@@ -14,9 +14,7 @@ const Hero = () => {
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <FadeInBottom>
-          <strong className="main-title text-[4rem] block">
-            Hello I'm Ryuya
-          </strong>
+          <strong className="main-title text-[4rem] block">Kawano Ryuya</strong>
           <strong className="main-title text-[2rem] block border-t-2">
             Panasonic Engineer
           </strong>

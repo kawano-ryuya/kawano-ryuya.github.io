@@ -8,7 +8,10 @@ const BASE_PATH = basePath ? basePath : ""; // 追加
 
 const Profile = () => {
   return (
-    <div className="w-screen h-screen flex-1" id="PROFILE">
+    <div
+      className="container w-screen h-[calc(100vh-90px)] flex-1"
+      id="PROFILE"
+    >
       <FadeInBottom>
         <h2 className="py-10 text-center font-medium text-5xl">PROFILE</h2>
         <p className="max-w-fit  mx-auto leading-8 text-xl ">
@@ -16,7 +19,7 @@ const Profile = () => {
           <br />
           2020年3月までハードウェア開発に従事し、その後、2020年4月からSE職に転向。
           <br />
-          現在は顔認証SaaSの開発マネジメント業務を担当中。
+          現在は顔認証SaaSの開発業務及びスクラムマスターを担当中。
         </p>
         <div className="flex mt-10">
           <div className="w-1/2 ">
@@ -27,7 +30,7 @@ const Profile = () => {
                 className="dark:invert px-4 "
                 width={600}
                 height={800}
-                // style={{ width: "50%", height: "auto" }}
+                style={{ borderRadius: "5%" }}
               />
             </div>
           </div>
@@ -43,7 +46,7 @@ const Profile = () => {
                 並行してフロントエンド開発およびAWSによるバックエンド開発を担当。
                 プロジェクト全体の指揮を執りながら、技術的な貢献も行っている。
               </p> */}
-              <table className=" text-left text-xl select-none ">
+              <table className=" text-left  select-none text-xs sm:text-base md:text-xl">
                 <tbody>
                   <tr className="border-b border-t transition duration-300 ease-in-out hover:bg-neutral-100 dark:border-neutral-500 dark:hover:bg-neutral-600">
                     <td className="whitespace-nowrap px-6 py-2 font-medium">
