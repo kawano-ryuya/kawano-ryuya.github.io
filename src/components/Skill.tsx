@@ -55,11 +55,11 @@ const Skill = () => {
       <FadeInBottom>
         <h2 className="py-10 text-center font-medium text-5xl">SKILL</h2>
         <h3 className="text-center text-3xl mb-5">保有資格</h3>
-        <div className="flex justify-around">
+        <div className="flex justify-around flex-wrap gap-4">
           {certifications.map((certification) => (
             <div
               key={certification.name}
-              className="cursor-pointer select-none block w-1/5 max-w-[18rem] border rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white transition-transform hover:-translate-y-2"
+              className="cursor-pointer select-none block w-[300px]   border rounded-lg bg-white text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white transition-transform hover:-translate-y-2"
             >
               <div className="relative overflow-hidden bg-cover bg-no-repeat">
                 <div

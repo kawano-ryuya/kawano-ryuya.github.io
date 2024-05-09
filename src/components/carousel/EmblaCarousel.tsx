@@ -46,10 +46,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/JS.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">javascript</h1>
-                      <p className="text-xl mt-3">経験年数：2.0年</p>
-                      <p className="text-xl mt-3">スキル：★★★★☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-14 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">javascript</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：2.0年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★★☆
+                      </p>
                     </div>
                   </div>
                 </div>

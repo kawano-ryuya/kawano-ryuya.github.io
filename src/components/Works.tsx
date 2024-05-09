@@ -28,7 +28,7 @@ const Works = () => {
     {
       title: "検収業務DX化",
       stack: "PowerAutomate",
-      desc: "発注業務プロセスの研修業務をPowerAutomateでDX化。これまで紙媒体での検収をteams経由で実現可能にした。",
+      desc: "発注業務プロセスの検収業務をPowerAutomateでDX化。これまで紙媒体での検収をteams経由で実現可能にした。",
       file: "kensyu.png",
     },
   ];
@@ -41,7 +41,7 @@ const Works = () => {
           {works.map((work) => (
             <div
               key={work.title}
-              className=" select-none block w-3/7 max-w-[40rem] border rounded-lg border-connect-blue1 bg-connect-blue1 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white transition-transform hover:-translate-y-2"
+              className=" select-none block w-3/7 max-w-[40rem] border rounded-lg border-connect-blue2 bg-connect-blue2 text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white transition-transform hover:-translate-y-2"
             >
               <div className="relative overflow-hidden bg-cover bg-no-repeat mt-5">
                 <div
