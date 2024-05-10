@@ -84,6 +84,8 @@ const Skill = () => {
             </div>
           ))}
         </div>
+      </FadeInBottom>
+      <FadeInBottom>
         <h3 className="pt-10 text-center text-3xl mb-5">スキル</h3>
         <div className="flex justify-around">
           <div className="w-full">
@@ -92,7 +94,7 @@ const Skill = () => {
         </div>
       </FadeInBottom>
       <Jump content="CONTACT" />
-      <div className="mt-40"></div> {/*間隔空ける用 */}
+      <div className="pt-40"></div> {/*間隔空ける用 */}
     </div>
   );
 };

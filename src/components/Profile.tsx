@@ -8,10 +8,7 @@ const BASE_PATH = basePath ? basePath : ""; // 追加
 
 const Profile = () => {
   return (
-    <div
-      className="container w-screen h-[calc(100vh-90px)] flex-1"
-      id="PROFILE"
-    >
+    <div className="container w-screen  flex-1" id="PROFILE">
       <FadeInBottom>
         <h2 className="py-10 text-center font-medium text-5xl">PROFILE</h2>
         <p className="max-w-fit  mx-auto leading-8 text-xl ">
@@ -87,6 +84,7 @@ const Profile = () => {
         </div>
       </FadeInBottom>
       <Jump content="WORKS" />
+      <div className="pt-40"></div> {/*間隔空ける用 */}
     </div>
   );
 };

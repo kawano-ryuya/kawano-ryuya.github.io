@@ -46,7 +46,7 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/JS.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-14 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
                       <h1 className="sm:text-5xl text-3xl">javascript</h1>
                       <p className="sm:text-xl text-[1rem] mt-3">
                         経験年数：2.0年
@@ -68,10 +68,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/TS.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">typescript</h1>
-                      <p className="text-xl mt-3">経験年数：1.0年</p>
-                      <p className="text-xl mt-3">スキル：★★★☆☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">typescript</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：1.0年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★☆☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -86,10 +90,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/react.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">react</h1>
-                      <p className="text-xl mt-3">経験年数：1.5年</p>
-                      <p className="text-xl mt-3">スキル：★★★★☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">react</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：1.5年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★★☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -104,10 +112,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/vue.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">vue</h1>
-                      <p className="text-xl mt-3">経験年数：0.5年</p>
-                      <p className="text-xl mt-3">スキル：★★★☆☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">vue</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：0.5年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★☆☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -122,10 +134,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/HTML.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">HTML</h1>
-                      <p className="text-xl mt-3">経験年数：2.0年</p>
-                      <p className="text-xl mt-3">スキル：★★★★☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">HTML</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：2.0年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★★☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -140,10 +156,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/CSS.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">CSS</h1>
-                      <p className="text-xl mt-3">経験年数：2.0年</p>
-                      <p className="text-xl mt-3">スキル：★★★★☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">CSS</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：2.0年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★★☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -158,10 +178,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/mysql.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">mySQL</h1>
-                      <p className="text-xl mt-3">経験年数：1.5年</p>
-                      <p className="text-xl mt-3">スキル：★★★★☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">mySQL</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：1.5年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★★☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -176,10 +200,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/postgresql.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">postgreSQL</h1>
-                      <p className="text-xl mt-3">経験年数：0.5年</p>
-                      <p className="text-xl mt-3">スキル：★★★☆☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">postgreSQL</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：0.5年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★☆☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -194,10 +222,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/next.svg`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">nextJS</h1>
-                      <p className="text-xl mt-3">経験年数：1.0年</p>
-                      <p className="text-xl mt-3">スキル：★★★☆☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">nextJS</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：1.0年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★☆☆
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -212,10 +244,14 @@ const EmblaCarousel: React.FC<PropType> = (props) => {
                       src={`${BASE_PATH}/tailwindcss.png`}
                       alt="Your alt text"
                     />
-                    <div className="w-full h-full absolute top-0 text-connect-gray4  text-bold px-5 py-20 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
-                      <h1 className="text-5xl">tailwindCSS</h1>
-                      <p className="text-xl mt-3">経験年数：1.0年</p>
-                      <p className="text-xl mt-3">スキル：★★★☆☆</p>
+                    <div className="w-full h-full absolute top-0 text-connect-gray4 text-bold px-5 sm:py-20 py-10 flex-col justify-center duration-200 bg-black bg-opacity-50 left-full overflow-hidden rounded-lg">
+                      <h1 className="sm:text-5xl text-3xl">tailwindCSS</h1>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        経験年数：1.0年
+                      </p>
+                      <p className="sm:text-xl text-[1rem] mt-3">
+                        スキル：★★★☆☆
+                      </p>
                     </div>
                   </div>
                 </div>
